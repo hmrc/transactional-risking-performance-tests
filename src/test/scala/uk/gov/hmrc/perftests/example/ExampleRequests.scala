@@ -24,7 +24,7 @@ import uk.gov.hmrc.performance.conf.ServicesConfiguration
 object ExampleRequests extends ServicesConfiguration {
 
   val baseUrl: String = baseUrlFor("transactional-risking")
-  val route: String   = "/transactional-risking"
+  val route: String   = ""
 
   val callHelloWorldEndpoint: HttpRequestBuilder =
     http("Call Hello World Endpoint")
